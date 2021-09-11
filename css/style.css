@@ -1,0 +1,143 @@
+/* Image slider */
+.slider1{
+    background: rgba(0, 0, 0, 0.7) url(../Images/Slider-5.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.slider2{
+    background: rgba(0, 0, 0, 0.7) url(../Images/Slider-1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.slider3{
+    background: rgba(0, 0, 0, 0.7) url(../Images/Slider-3.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.sliderCommon{
+    height: 100vh;
+}
+
+/* Navbar */
+.inheritNav{
+    z-index: 9;
+    background: rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-blend-mode: darken;
+    padding-left: 40px;
+}
+.fullCrousel{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}
+#signButton{
+    margin-right: 40px;
+    border: 2px solid white;
+}
+
+
+.searchSec {
+    height: 6.4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 68px;
+}
+
+.searchSec-bar {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 680px;
+    border: 2px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+}
+
+.searchSec-bar:hover, #signButton:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.searchSec .searchSec-bar .searchSec-icon {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchSec .searchSec-bar .searchSec-icon img {
+    height: 43%;
+    margin: 0px 20px;
+}
+
+.searchSec .searchSec-bar .searchSec-input {
+    height: 100%;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+}
+.placeholder::placeholder{
+    color: #f1f1f1;
+}
+.searchSecSec .searchSec-bar .searchSec-input input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 16px;
+}
+
+.searchSec .searchSec-bar .searchSec-voice {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchSec .searchSec-bar .searchSec-voice img {
+    height: 45%;
+    margin-right: 20px;
+}
+
+/* Cards */
+.card-1{
+    background: rgba(0, 0, 0, 0.7)url('../images/Dining.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* Traveller's choice  */
+
+.travellerCh{
+    background: rgba(8, 174, 240, 0.3) url('../images/Tra_ch_bg.jpg') no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 20px;
+}
+
+/* Top destination */
+#topDest{
+    margin: 40px 20px;
+}
+
+/* Footer */
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
